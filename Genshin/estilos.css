@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Trykker&display=swap');
+
+body{
+    background-color: rgb(113,160,199);
+    font-family: "Trykker", serif;
+}
+
+h3{
+    font-family: "Mouse Memoirs", sans-serif;
+    font-size: 30px;
+}
+
+div{
+    width: 800px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+header{
+   color: black;
+   text-align: center;
+   padding-top: 20px;
+   font-family: "Mouse Memoirs", sans-serif;
+   font-size: 30px;
+}
+
+nav{
+    border-bottom: 2px solid black;
+}
+
+article{
+    background-color: rgb(168,202,229);
+    padding: 2px;
+    margin: 10px;
+}
+
+footer{
+    background-color: rgb(202,223,237);
+    color: green;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.imagen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    width: 50%;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(202,223,237);
+    padding: 5px;
+    display: inline-block;
+}
+
+nav a:hover{
+    color: black;
+    background-color: rgb(48,120,129);
+}
+
+html{
+    scroll-behavior: smooth;
+}
